@@ -331,8 +331,6 @@ ul.header-menu__flex li:last-child {
 .form {
   background: #eeeff1;
 }
-.text-h2 {
-}
 .form__h2 {
   text-align: center;
   padding-bottom: 50px;
@@ -416,8 +414,29 @@ ul.header-menu__flex li:last-child {
 .footer-flex__item2 a:last-child {
   margin-right: 0px;
 }
-/* media */
+.footer__h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.footer__line {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+/* --- media --- */
 @media screen and (max-width: 1280px) {
+  .first-screen {
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 30px;
+  }
+  .header-text__h1 {
+    margin-left: 0px;
+    margin-bottom: 25px;
+    padding-right: 170px;
+  }
   .numbers-flex {
     justify-content: center;
   }
@@ -463,7 +482,7 @@ ul.header-menu__flex li:last-child {
   }
   .projects-grid {
     grid-template-columns: repeat(3, 1fr);
-    /* justify-content: center; */
+    justify-content: center;
     /* Как при получении в третьей строке 2 элем всыставить их по центру */
   }
   .clients-box {
@@ -473,6 +492,9 @@ ul.header-menu__flex li:last-child {
   }
 }
 @media screen and (max-width: 768px) {
+  ul.header-menu__flex li {
+    margin-right: 24px;
+  }
   .numbers-flex {
     flex-wrap: wrap;
     padding-left: 50px;
@@ -502,9 +524,6 @@ ul.header-menu__flex li:last-child {
   }
 }
 @media screen and (max-width: 576px) {
-  ul.header-menu__flex li {
-    margin-right: 24px;
-  }
   .first-screen {
     padding-bottom: 50px;
     padding-left: 25px;
@@ -576,7 +595,6 @@ ul.header-menu__flex li:last-child {
     padding-left: 14px;
   }
   .skills-list {
-    /* max-width: 600px; */
     min-width: 340px;
     padding-top: 102px;
     padding-bottom: 91px;
