@@ -58,6 +58,42 @@ img {
   max-width: 1110px;
   margin: 0 auto;
 }
+/* modal */
+.first-modal {
+  display: none;
+  /* display: block; */
+  background-color: #434242;
+  text-align: center;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  z-index: 5;
+}
+.first-modal-box {
+  background-color: #d3d1d1;
+}
+.text-p {
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+.first-modal-mesage {
+  display: block;
+  width: 80%;
+  height: 70vh;
+  margin: 0 auto;
+  margin-bottom: 23px;
+}
+.first-modal__btn {
+  margin-bottom: 20px;
+}
+.clouse__btn {
+}
+.send__btn {
+}
+
 /* header */
 .header {
   background-color: var(--silver-back__color);
