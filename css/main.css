@@ -61,9 +61,9 @@ img {
 /* modal */
 .first-modal {
   display: none;
-  /* display: block; */
-  background-color: #434242;
+  background-color: rgb(141 137 137 / 89%);
   text-align: center;
+  padding-top: 20px;
   width: 90%;
   height: 90%;
   margin: 0 auto;
@@ -72,28 +72,42 @@ img {
   left: 5%;
   z-index: 5;
 }
-.first-modal-box {
-  background-color: #d3d1d1;
-}
-.text-p {
-  padding-bottom: 25px;
-  padding-top: 20px;
+.first-modal__p{
+  font-weight: 500;
+  color: #000;
+  font-size: 25px;
+  margin-bottom: 25px;
 }
 .first-modal-mesage {
   display: block;
+  resize: none;
   width: 80%;
-  height: 70vh;
+  height: calc(100% - 140px);
+  padding: 20px;
   margin: 0 auto;
-  margin-bottom: 23px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: auto;
+}
+.first-modal__buttons{
+  display: flex;
+  justify-content: center;
 }
 .first-modal__btn {
-  margin-bottom: 20px;
+}
+.first-modal__btn:hover {
+  background: var(--accent-back__color);
+  color: #fff;
+}
+.clouse__btn, .send__btn {
+  width: 100px;
+  height: 36px;
+  border-radius: 5px;
 }
 .clouse__btn {
+  margin-right: 20px;
 }
-.send__btn {
-}
-
 /* header */
 .header {
   background-color: var(--silver-back__color);
