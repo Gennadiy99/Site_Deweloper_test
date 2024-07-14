@@ -64,12 +64,12 @@ img {
   background-color: rgb(141 137 137 / 89%);
   text-align: center;
   padding-top: 20px;
-  width: 90%;
-  height: 90%;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   position: fixed;
-  top: 5%;
-  left: 5%;
+  top: 0%;
+  left: 0%;
   z-index: 5;
 }
 .first-modal__p{
