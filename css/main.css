@@ -85,7 +85,7 @@ img {
   height: calc(100% - 140px);
   padding: 20px;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 30px;
   border-radius: 5px;
   overflow: auto;
@@ -337,7 +337,8 @@ ul.header-menu__flex li:last-child {
 .item3,
 .item6,
 .item8 {
-  background-image: url(../img/Project\ img1.jpg);
+  /* background-image: url(../img/Project\ img1.jpg); */
+  background-image: url(../img/Mein\ Project1.JPG);
 }
 .item2,
 .item4,
@@ -601,12 +602,12 @@ ul.header-menu__flex li:last-child {
   }
   .projects-grid {
     grid-template-columns: repeat(1, 1fr);
-    row-gap: 5;
+    /* row-gap: 5; */
     background-color: #fff;
   }
   .projects-grid__item {
     position: relative;
-    width: calc(100% - 10px);
+    height: calc(100% - 10px);
     margin-bottom: 10px;
     padding-top: 100%; /*исп.отступ для соотнош-стор и для раб.изобр */
     background-size: cover;
