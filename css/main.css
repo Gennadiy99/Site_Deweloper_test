@@ -478,3 +478,13 @@ ul.header-menu__flex li:last-child {
   background-color: #fff;
   margin-bottom: 10px;
 }
+.up{
+  position: fixed;
+  right: 10px;
+  top: 500px;
+  z-index: 10;
+}
+.up > a{
+  text-decoration: none;
+  color: #fff;
+}
