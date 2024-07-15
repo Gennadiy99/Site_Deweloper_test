@@ -5,6 +5,10 @@
     padding-left: 150px;
     padding-right: 30px;
   }
+  .header-box-menu__flex {
+    padding-left: 0px;
+    justify-content: center;
+  }
   .header-text__h1 {
     margin-left: 0px;
     margin-bottom: 25px;
@@ -25,15 +29,10 @@
   }
 }
 @media screen and (max-width: 992px) {
-  .header-box-menu__flex {
-    flex-direction: column;
-    padding-left: 0px;
-    margin-bottom: 80px;
-  }
   .header-text__h1 {
     margin-left: 0px;
     margin-bottom: 25px;
-    padding-right: 0px;
+    padding-right: 36px;
   }
   .first-screen {
     padding-bottom: 90px;
@@ -67,6 +66,9 @@
 @media screen and (max-width: 768px) {
   ul.header-menu__flex li {
     margin-right: 24px;
+  }
+  .header-box-menu__flex {
+    flex-direction: column;
   }
   .numbers-flex {
     flex-wrap: wrap;
@@ -155,15 +157,10 @@
 }
 @media screen and (max-width: 480px) {
   .header-box-menu__flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 25px;
-    padding-left: 20px;
-  }
-  .header-menu__flex {
-    flex-direction: column;
+    padding-left: 0px;
   }
   .about-me {
     padding-left: 14px;
@@ -172,7 +169,7 @@
     min-width: 340px;
     padding-top: 102px;
     padding-bottom: 91px;
-    padding-right: 150px;
+    padding-right: 0px;
   }
   .video-info {
     padding-left: 10px;

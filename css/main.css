@@ -17,6 +17,7 @@ ul,
 a > i[class^="icon-"]:before,
 [class*=" icon-"]:before {
   margin: 0;
+  padding: 0;
 }
 body {
   margin: 0;
@@ -70,9 +71,9 @@ img {
   position: fixed;
   top: 0%;
   left: 0%;
-  z-index: 5;
+  z-index: 10;
 }
-.first-modal__p{
+.first-modal__p {
   font-weight: 500;
   color: #000;
   font-size: 25px;
@@ -90,7 +91,7 @@ img {
   border-radius: 5px;
   overflow: auto;
 }
-.first-modal__buttons{
+.first-modal__buttons {
   display: flex;
   justify-content: center;
 }
@@ -100,7 +101,8 @@ img {
   background: var(--accent-back__color);
   color: #fff;
 }
-.clouse__btn, .send__btn {
+.clouse__btn,
+.send__btn {
   width: 100px;
   height: 36px;
   border-radius: 5px;
@@ -118,10 +120,17 @@ img {
   padding-left: 185px;
 }
 .header-box-menu__flex {
+  width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 105px;
-  padding-left: 20px;
+  padding-left: 340px;
+  padding-top: 37px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  background-color: var(--silver-back__color);
 }
 .header-text__h1 {
   font-family: "Revalia", sans-serif;
@@ -160,6 +169,7 @@ ul.header-menu__flex li:last-child {
 /* 2 часть блока */
 .design-flex {
   display: flex;
+  padding-top: 105px;
 }
 .design-flex__h2 {
   font-weight: 500;
@@ -477,14 +487,4 @@ ul.header-menu__flex li:last-child {
   height: 2px;
   background-color: #fff;
   margin-bottom: 10px;
-}
-.up{
-  position: fixed;
-  right: 10px;
-  top: 500px;
-  z-index: 10;
-}
-.up > a{
-  text-decoration: none;
-  color: #fff;
 }
