@@ -162,6 +162,9 @@
     margin-bottom: 25px;
     padding-left: 0px;
   }
+  ul.header-menu__flex li{
+    margin-right: 20px;
+  }
   .about-me {
     padding-left: 14px;
   }
