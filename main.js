@@ -6,6 +6,7 @@ document.querySelector(".design-flex__btn").addEventListener("click", openModal)
 
 function closеModal() {
   document.querySelector(".first-modal").style.display = "none";
+  messageFild.value = "";
 }
 document.querySelector(".clouse__btn").addEventListener("click", closеModal);
 
