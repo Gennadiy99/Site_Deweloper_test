@@ -347,10 +347,11 @@ ul.header-menu__flex li:last-child {
 .item3,
 .item6,
 .item8 {
-  /* background-image: url(../img/Project\ img1.jpg); */
   background-image: url(../img/Mein\ Project1.JPG);
 }
-.item2,
+.item2{
+  background-image: url(../img/My\ project_2.JPG);
+}
 .item4,
 .item5,
 .item7 {
