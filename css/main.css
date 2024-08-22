@@ -15,7 +15,7 @@ h6,
 p,
 ul,
 a > i[class^="icon-"]:before,
-[class*=" icon-"]:before {
+a > i[class*=" icon-"]:before {
   margin: 0;
   padding: 0;
 }
@@ -344,7 +344,6 @@ ul.header-menu__flex li:last-child {
   transition: transform 0.8s, background-size 0.8s, border 0.8s, opacity 0.8s;
 }
 .item1,
-.item3,
 .item6,
 .item8 {
   background-image: url(../img/Mein\ Project1.JPG);
@@ -352,7 +351,12 @@ ul.header-menu__flex li:last-child {
 .item2{
   background-image: url(../img/My\ project_2.JPG);
 }
-.item4,
+.item3{
+  background-image: url(../img/project_3_Konstruct.JPG);
+}
+.item4{
+  background-image: url(../img/project_4_Alivio.JPG);
+}
 .item5,
 .item7 {
   background-image: url(../img/Project\ img2.jpg);
@@ -369,6 +373,7 @@ ul.header-menu__flex li:last-child {
   background-position: 20% 20%;
   background-repeat: no-repeat;
   transition: transform 0.8s, background-size 0.8s, border 0.8s, opacity 0.8s;
+  /* transition: all 0.8s; */
 }
 .projects-grid__item:hover .overlay {
   opacity: 0;
