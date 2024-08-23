@@ -22,4 +22,4 @@ sendBtn.addEventListener('click', function() {
   let mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
   window.location.href = mailtoLink;
 });
-sendBtn.addEventListener('click', closеModal);
+// sendBtn.addEventListener('click', closеModal);
