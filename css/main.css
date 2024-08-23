@@ -348,13 +348,13 @@ ul.header-menu__flex li:last-child {
 .item8 {
   background-image: url(../img/Mein\ Project1.JPG);
 }
-.item2{
+.item2 {
   background-image: url(../img/My\ project_2.JPG);
 }
-.item3{
+.item3 {
   background-image: url(../img/project_3_Konstruct.JPG);
 }
-.item4{
+.item4 {
   background-image: url(../img/project_4_Alivio.JPG);
 }
 .item5,
@@ -469,18 +469,28 @@ ul.header-menu__flex li:last-child {
   color: #fff;
 }
 .footer-flex__item2 {
+  position: relative;
 }
 .footer-icon {
   display: inline-block;
   color: #fff;
   font-size: 40px;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
+.footer-icon:hover {
+  transform: scale(1.2);
+  color: #03f5f9;
+}
+
 .footer-flex__item2 a {
   margin-right: 35px;
+  text-decoration: none;
+  color: #fff;
 }
 .footer-flex__item2 a:last-child {
   margin-right: 0px;
 }
+
 .footer__h2 {
   font-weight: 500;
   text-align: center;

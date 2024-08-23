@@ -21,4 +21,5 @@ sendBtn.addEventListener('click', function() {
   let subject = "Вопрос по разработке";
   let mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
   window.location.href = mailtoLink;
-})
+});
+sendBtn.addEventListener('click', closеModal);
